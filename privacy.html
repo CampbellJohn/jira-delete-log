@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deleted Issue Log for Jira: Privacy Policy</title>
+<link rel="stylesheet" href="style.css"></head><body><main>
+<p class="nav"><a href="index.html">Support</a> · <strong>Privacy policy</strong></p>
+<h1>Deleted Issue Log: Privacy Policy</h1>
+<p><strong>Publisher:</strong> Algorithmic Enterprises<br>
+<strong>Contact:</strong> <a href="mailto:algorithmicenterprises@gmail.com">algorithmicenterprises@gmail.com</a><br>
+<strong>Effective date:</strong> 30 September 2026</p>
+
+<h2>What the app does</h2>
+<p>Deleted Issue Log is a Forge app for Jira Cloud. Whenever an issue is deleted on your site, it saves a short record of that issue so that Jira admins (and project admins, for their own projects) can see what was deleted.</p>
+
+<h2>What data it stores</h2>
+<p>The app stores one record per deleted issue, built from the deletion event Jira sends to the app:</p>
+<ul>
+<li>the issue's id, key, summary, type, status, due date, fix version names and created date</li>
+<li>the project id and key</li>
+<li>the Atlassian account IDs of the assignee, reporter, creator and the user who deleted the issue</li>
+<li>the time of deletion</li>
+</ul>
+<p>It does <strong>not</strong> store names, email addresses, issue descriptions, comments, attachments or custom fields. Account IDs are shown in the app's pages, where Jira resolves them to display names for viewers who are allowed to see them.</p>
+
+<h2>Where it is stored</h2>
+<p>Everything is stored in Atlassian's Forge storage (Key-Value Store) for your site, and it is processed only inside Atlassian's Forge platform. The app makes <strong>no calls to external servers</strong>, and the publisher does not run any server or database of its own. The publisher cannot read your site's stored records.</p>
+
+<h2>Who can see it</h2>
+<ul>
+<li>The admin page: users with Jira administrator access.</li>
+<li>The project settings page: users who can administer that project. It shows only that project's deletions.</li>
+</ul>
+
+<h2>Retention and deletion</h2>
+<p>Records are kept until the app is uninstalled. When the app is uninstalled, Atlassian deletes its Forge storage for your site under Atlassian's data retention policy for Forge apps.</p>
+
+<h2>Sharing</h2>
+<p>The publisher does not sell, share or transfer your data. The app has no analytics and no tracking.</p>
+
+<h2>Atlassian</h2>
+<p>The Atlassian Privacy Policy also applies to your use of Jira and the Forge platform: <a href="https://www.atlassian.com/legal/privacy-policy">https://www.atlassian.com/legal/privacy-policy</a></p>
+
+<h2>Changes</h2>
+<p>We'll update this page and its effective date if the app's data handling changes.</p>
+</main></body></html>
